@@ -1,0 +1,20 @@
+﻿namespace TimerTrackerApp.Model
+{
+    public class TaskItem
+    {
+        public string? TaskName { get; set; }
+        public string? TaskDescription { get; set; }
+        public TaskState TaskStatus { get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
+        public TimeSpan Duration { get; set; }
+        public TimeSpan ThresholdTime { get; set; }
+    }
+
+    public enum TaskState
+    {
+        NotStarted,
+        Ongoing,
+        Completed
+    }
+}
