@@ -1,18 +1,60 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\presentation\\applicationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\asus\\desktop\\p\\demo\\timertrackerapp\\timertrackerapp\\tasktimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\tasktimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\asus\\desktop\\p\\demo\\timertrackerapp\\timertrackerapp\\taskui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\taskui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\asus\\desktop\\p\\demo\\timertrackerapp\\timertrackerapp\\presentation\\applicationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\presentation\\applicationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\presentation\\authenticationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\presentation\\authenticationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\asus\\desktop\\p\\demo\\timertrackerapp\\timertrackerapp\\model\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\model\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\businesslogic\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ProgramData\\TimeTrackerApp\\A.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ProgramData\\TimeTrackerApp\\H.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\asus\\desktop\\p\\demo\\timertrackerapp\\timertrackerapp\\businesslogic\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\businesslogic\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\asus\\desktop\\p\\demo\\timertrackerapp\\timertrackerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\asus\\desktop\\p\\demo\\timertrackerapp\\timertrackerapp\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\asus\\desktop\\p\\demo\\timertrackerapp\\timertrackerapp\\businesslogic\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\businesslogic\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\asus\\desktop\\p\\demo\\timertrackerapp\\timertrackerapp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\asus\\desktop\\p\\demo\\timertrackerapp\\timertrackerapp\\model\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\model\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\asus\\desktop\\p\\demo\\timertrackerapp\\timertrackerapp\\dataaccess\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\dataaccess\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\asus\\desktop\\p\\demo\\timertrackerapp\\timertrackerapp\\presentation\\authenticationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\presentation\\authenticationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +64,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -34,50 +92,196 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProjectService.cs",
-              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
-              "RelativeDocumentMoniker": "TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
-              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
-              "RelativeToolTip": "TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwCkAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "A.json",
+              "DocumentMoniker": "C:\\ProgramData\\TimeTrackerApp\\A.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\ProgramData\\TimeTrackerApp\\A.json",
+              "ToolTip": "C:\\ProgramData\\TimeTrackerApp\\A.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\ProgramData\\TimeTrackerApp\\A.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T18:40:16.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "H.json",
+              "DocumentMoniker": "C:\\ProgramData\\TimeTrackerApp\\H.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\ProgramData\\TimeTrackerApp\\H.json",
+              "ToolTip": "C:\\ProgramData\\TimeTrackerApp\\H.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\ProgramData\\TimeTrackerApp\\H.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T18:26:09.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskTimer.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\TaskTimer.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\TaskTimer.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\TaskTimer.cs",
+              "RelativeToolTip": "TimerTrackerApp\\TaskTimer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowBoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T13:36:51.78Z",
+              "WhenOpened": "2025-03-13T17:27:44.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthenticationUI.cs",
-              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\AuthenticationUI.cs",
-              "RelativeDocumentMoniker": "TimerTrackerApp\\Presentation\\AuthenticationUI.cs",
-              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\AuthenticationUI.cs",
-              "RelativeToolTip": "TimerTrackerApp\\Presentation\\AuthenticationUI.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAUwEcAAAANAAAAAAAAAA==",
+              "Title": "TaskUI.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\TaskUI.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\TaskUI.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\TaskUI.cs",
+              "RelativeToolTip": "TimerTrackerApp\\TaskUI.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T10:55:24.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T17:25:42.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationUI.cs",
-              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\ApplicationUI.cs",
-              "RelativeDocumentMoniker": "TimerTrackerApp\\Presentation\\ApplicationUI.cs",
-              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\ApplicationUI.cs",
-              "RelativeToolTip": "TimerTrackerApp\\Presentation\\ApplicationUI.cs",
-              "ViewState": "AgIAAKoCAAAAAAAAAAAIwFkBAAAlAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Model\\UserData.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\Model\\UserData.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Model\\UserData.cs",
+              "RelativeToolTip": "TimerTrackerApp\\Model\\UserData.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T07:48:35.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T17:16:17.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Model\\User.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Model\\User.cs",
+              "RelativeToolTip": "TimerTrackerApp\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T17:15:43.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationUI.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\ApplicationUI.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\Presentation\\ApplicationUI.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\ApplicationUI.cs",
+              "RelativeToolTip": "TimerTrackerApp\\Presentation\\ApplicationUI.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAtwCgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:48:35.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Model\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\Model\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Model\\TaskItem.cs",
+              "RelativeToolTip": "TimerTrackerApp\\Model\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T17:15:12.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\TaskService.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\BusinessLogic\\TaskService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\TaskService.cs",
+              "RelativeToolTip": "TimerTrackerApp\\BusinessLogic\\TaskService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwC8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T17:17:09.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Program.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Program.cs",
+              "RelativeToolTip": "TimerTrackerApp\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAlwAwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T17:29:17.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Model\\Project.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\Model\\Project.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Model\\Project.cs",
+              "RelativeToolTip": "TimerTrackerApp\\Model\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T17:14:48.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\DataAccess\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\DataAccess\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\DataAccess\\UserRepository.cs",
+              "RelativeToolTip": "TimerTrackerApp\\DataAccess\\UserRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA9wBkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T17:11:42.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
+              "RelativeToolTip": "TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:36:51.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthenticationUI.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\AuthenticationUI.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\Presentation\\AuthenticationUI.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\p\\demo\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\AuthenticationUI.cs",
+              "RelativeToolTip": "TimerTrackerApp\\Presentation\\AuthenticationUI.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAUwEcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:55:24.92Z"
             }
           ]
         }

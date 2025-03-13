@@ -3,16 +3,17 @@ using TimerTrackerApp.BusinessLogic;
 using TimerTrackerApp.Model;
 using ConsoleTables;
 using TimerTrackerApp.DataAccess;
-using System.Threading.Tasks;
 namespace TimerTrackerApp.Presentation
 {
     public class ApplicationUI
     {
-        private ProjectService _projectService;
+        private readonly ProjectService _projectService;
+
         public ApplicationUI(ProjectService projectService)
         {
             _projectService = projectService;
         }
+
 
         public void TimerMenu(UserData userData)
         {
@@ -36,9 +37,9 @@ namespace TimerTrackerApp.Presentation
                         ManageTaskMenu(userData);
                         break;
                     case "Control Timer":
-                        // ManageTimer(userData);
-                        Console.WriteLine("Press any key to continue");
-                        Console.ReadKey();
+                        UserRepository userRepository = new UserRepository();
+                        var taskTimerUI = new TaskTimerUI(new TimerService(userRepository));
+                        taskTimerUI.ShowTimerMenu(userData);
                         break;
                     case "Generate Report":
                         Console.WriteLine("Press any key to continue");
