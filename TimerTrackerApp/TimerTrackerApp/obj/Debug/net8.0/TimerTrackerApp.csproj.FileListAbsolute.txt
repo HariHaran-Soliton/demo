@@ -3,7 +3,10 @@ C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrack
 C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\bin\Debug\net8.0\TimerTrackerApp.runtimeconfig.json
 C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\bin\Debug\net8.0\TimerTrackerApp.dll
 C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\bin\Debug\net8.0\TimerTrackerApp.pdb
+C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\bin\Debug\net8.0\ConsoleTables.dll
 C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\bin\Debug\net8.0\Spectre.Console.dll
+C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\bin\Debug\net8.0\Wcwidth.dll
 C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\obj\Debug\net8.0\TimerTrackerApp.csproj.AssemblyReference.cache
 C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\obj\Debug\net8.0\TimerTrackerApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\obj\Debug\net8.0\TimerTrackerApp.AssemblyInfoInputs.cache
@@ -16,6 +19,3 @@ C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrack
 C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\obj\Debug\net8.0\TimerTrackerApp.pdb
 C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\obj\Debug\net8.0\TimerTrackerApp.genruntimeconfig.cache
 C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\obj\Debug\net8.0\ref\TimerTrackerApp.dll
-C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\bin\Debug\net8.0\Spectre.Console.dll
-C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\bin\Debug\net8.0\ConsoleTables.dll
-C:\Users\hariharan.moorthy\Desktop\SDLC\SDLC-TimerApp\TimerTrackerApp\TimerTrackerApp\bin\Debug\net8.0\Wcwidth.dll

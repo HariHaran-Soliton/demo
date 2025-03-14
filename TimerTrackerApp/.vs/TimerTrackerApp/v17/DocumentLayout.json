@@ -3,16 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\dataaccess\\dataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\dataaccess\\dataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\presentation\\applicationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\presentation\\applicationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\dataaccess\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\dataaccess\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\presentation\\timerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\presentation\\timerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\presentation\\authenticationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\presentation\\authenticationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\model\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\model\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\businesslogic\\timerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\businesslogic\\timerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\businesslogic\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\businesslogic\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\businesslogic\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\businesslogic\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\businesslogic\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\businesslogic\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|c:\\users\\hariharan.moorthy\\desktop\\sdlc\\sdlc-timerapp\\timertrackerapp\\timertrackerapp\\model\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CAD571-712B-4960-ABFD-9128AE7F4CD1}|TimerTrackerApp\\TimerTrackerApp.csproj|solutionrelative:timertrackerapp\\model\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +86,184 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProjectService.cs",
-              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
-              "RelativeDocumentMoniker": "TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
-              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
-              "RelativeToolTip": "TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwCkAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Program.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\Program.cs",
+              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Program.cs",
+              "RelativeToolTip": "TimerTrackerApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T13:36:51.78Z",
+              "WhenOpened": "2025-03-14T12:32:26.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "TimerUI.cs",
+              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\TimerUI.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\Presentation\\TimerUI.cs",
+              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\TimerUI.cs",
+              "RelativeToolTip": "TimerTrackerApp\\Presentation\\TimerUI.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwGUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:32:23.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AuthenticationUI.cs",
               "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\AuthenticationUI.cs",
               "RelativeDocumentMoniker": "TimerTrackerApp\\Presentation\\AuthenticationUI.cs",
               "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\AuthenticationUI.cs",
               "RelativeToolTip": "TimerTrackerApp\\Presentation\\AuthenticationUI.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAUwEcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAwwJQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T10:55:24.92Z",
+              "WhenOpened": "2025-03-14T12:32:00.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\DataAccess\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\DataAccess\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\DataAccess\\UserRepository.cs",
+              "RelativeToolTip": "TimerTrackerApp\\DataAccess\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:31:38.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TimerService.cs",
+              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\TimerService.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\BusinessLogic\\TimerService.cs",
+              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\TimerService.cs",
+              "RelativeToolTip": "TimerTrackerApp\\BusinessLogic\\TimerService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAswFEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:15:26.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\TaskService.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\BusinessLogic\\TaskService.cs",
+              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\TaskService.cs",
+              "RelativeToolTip": "TimerTrackerApp\\BusinessLogic\\TaskService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA5wDoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:15:25.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DataExporter.cs",
+              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\DataAccess\\DataExporter.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\DataAccess\\DataExporter.cs",
+              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\DataAccess\\DataExporter.cs",
+              "RelativeToolTip": "TimerTrackerApp\\DataAccess\\DataExporter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:21:48.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Model\\User.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Model\\User.cs",
+              "RelativeToolTip": "TimerTrackerApp\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:20:01.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ApplicationUI.cs",
               "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\ApplicationUI.cs",
               "RelativeDocumentMoniker": "TimerTrackerApp\\Presentation\\ApplicationUI.cs",
               "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Presentation\\ApplicationUI.cs",
               "RelativeToolTip": "TimerTrackerApp\\Presentation\\ApplicationUI.cs",
-              "ViewState": "AgIAAKoCAAAAAAAAAAAIwFkBAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAtwHIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T07:48:35.545Z",
+              "WhenOpened": "2025-03-14T11:09:22.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
+              "RelativeToolTip": "TimerTrackerApp\\BusinessLogic\\ProjectService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwCsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:31:19.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Model\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\Model\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Model\\TaskItem.cs",
+              "RelativeToolTip": "TimerTrackerApp\\Model\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:19:53.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Model\\UserData.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\Model\\UserData.cs",
+              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Model\\UserData.cs",
+              "RelativeToolTip": "TimerTrackerApp\\Model\\UserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:19:36.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\BusinessLogic\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\BusinessLogic\\AuthenticationService.cs",
+              "RelativeToolTip": "TimerTrackerApp\\BusinessLogic\\AuthenticationService.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAswIEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:31:15.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Model\\Project.cs",
+              "RelativeDocumentMoniker": "TimerTrackerApp\\Model\\Project.cs",
+              "ToolTip": "C:\\Users\\hariharan.moorthy\\Desktop\\SDLC\\SDLC-TimerApp\\TimerTrackerApp\\TimerTrackerApp\\Model\\Project.cs",
+              "RelativeToolTip": "TimerTrackerApp\\Model\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:19:45.837Z",
               "EditorCaption": ""
             }
           ]

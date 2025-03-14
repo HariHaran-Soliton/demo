@@ -7,6 +7,7 @@
         public TaskState TaskStatus { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
+        public DateTime ResumeTime { get; set; }
         public TimeSpan Duration { get; set; }
         public TimeSpan ThresholdTime { get; set; }
     }
@@ -15,6 +16,7 @@
     {
         NotStarted,
         Ongoing,
+        Paused,
         Completed
     }
 }

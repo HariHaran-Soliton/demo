@@ -36,7 +36,7 @@ namespace TimerTrackerApp.Presentation
                         UserData? userData = Login();
                         if (userData != null)
                         {
-                            _taskUI.TimerMenu(userData);
+                            _taskUI.ApplicationMenu(userData);
                         }
                         break;
                     case "Exit":
@@ -63,7 +63,7 @@ namespace TimerTrackerApp.Presentation
                 Console.ReadKey();
                 return;
             }
-            else if(!username.All(char.IsLetter))
+            else if (!username.All(char.IsLetter))
             {
                 AnsiConsole.MarkupLine("[bold red]Username should not have only alphabets.[/]");
                 AnsiConsole.MarkupLine("[yellow]Press Enter to continue...[/]");

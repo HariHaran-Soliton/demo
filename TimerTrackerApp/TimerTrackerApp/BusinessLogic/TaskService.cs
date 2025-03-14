@@ -47,8 +47,8 @@ namespace TimerTrackerApp.BusinessLogic
             var taskIndex = _project.TaskItems.FindIndex(t => t.TaskName == updatedTask.TaskName);
             if (taskIndex != -1)
             {
-                _project.TaskItems[taskIndex] = updatedTask;  
-                SaveUserData(); 
+                _project.TaskItems[taskIndex] = updatedTask;
+                SaveUserData();
             }
         }
 

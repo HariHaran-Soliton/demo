@@ -3,7 +3,7 @@ using TimerTrackerApp.BusinessLogic;
 using TimerTrackerApp.Model;
 using ConsoleTables;
 using TimerTrackerApp.DataAccess;
-using System.Threading.Tasks;
+
 namespace TimerTrackerApp.Presentation
 {
     public class ApplicationUI
@@ -14,13 +14,15 @@ namespace TimerTrackerApp.Presentation
             _projectService = projectService;
         }
 
-        public void TimerMenu(UserData userData)
+        public void ApplicationMenu(UserData userData)
         {
             _projectService.SetUserProjects(userData);
             while (true)
             {
                 Console.Clear();
+                DisplayDashboard(userData);
                 AnsiConsole.MarkupLine($"[bold cyan]=== Task Menu of {userData.User.UserName} ===[/]");
+
                 var choice = AnsiConsole.Prompt(
                     new SelectionPrompt<string>()
                         .Title("[grey100]Select an option:[/]")
@@ -36,16 +38,17 @@ namespace TimerTrackerApp.Presentation
                         ManageTaskMenu(userData);
                         break;
                     case "Control Timer":
-                        // ManageTimer(userData);
-                        Console.WriteLine("Press any key to continue");
+                        UserRepository userRepository = new UserRepository();
+                        var taskTimerUI = new TimerUI(new TimerService(userRepository));
+                        taskTimerUI.ShowTimerMenu(userData);
                         Console.ReadKey();
                         break;
                     case "Generate Report":
-                        Console.WriteLine("Press any key to continue");
+                        GenerateReport(userData);
                         Console.ReadKey();
                         break;
                     case "Export CSV":
-                        Console.WriteLine("Press any key to continue");
+                        DataExporter.ExportData(userData);
                         Console.ReadKey();
                         break;
                     case "Logout":
@@ -54,6 +57,285 @@ namespace TimerTrackerApp.Presentation
                         return;
                 }
             }
+        }
+
+        private void DisplayDashboard(UserData userData)
+        {
+            var recentTasks = userData.Projects
+                .SelectMany(p => p.TaskItems)
+                .OrderByDescending(t => t.EndTime)
+                .Take(2)
+                .ToList();
+
+            var runningTask = userData.Projects
+                .SelectMany(p => p.TaskItems)
+                .FirstOrDefault(t => t.TaskStatus == TaskState.Ongoing);
+
+            AnsiConsole.MarkupLine("[bold yellow]--- Dashboard ---[/]");
+
+            var recentTasksTable = new Table();
+            recentTasksTable.AddColumn("Task");
+            recentTasksTable.AddColumn("Description");
+            recentTasksTable.AddColumn("End Time");
+
+            AnsiConsole.MarkupLine("[bold green]Recent Activities:[/]");
+            foreach (var task in recentTasks)
+            {
+                recentTasksTable.AddRow(task.TaskName ?? "N/A", task.TaskDescription ?? "N/A", task.EndTime.ToString());
+            }
+            if (recentTasksTable.Rows.Count > 0)
+            {
+                AnsiConsole.Write(recentTasksTable);
+            }
+            else
+            {
+                AnsiConsole.MarkupLine("[bold red]No recent task.[/]");
+            }
+
+            if (runningTask != null)
+            {
+                var runningTaskTable = new Table();
+                runningTaskTable.AddColumn("Task");
+                runningTaskTable.AddColumn("Description");
+                runningTaskTable.AddColumn("Start Time");
+
+                runningTaskTable.AddRow(runningTask.TaskName ?? "N/A", runningTask.TaskDescription ?? "N/A", runningTask.StartTime.ToString());
+
+                AnsiConsole.MarkupLine("[bold green]Currently Running Task:[/]");
+                AnsiConsole.Write(runningTaskTable);
+            }
+            else
+            {
+                AnsiConsole.MarkupLine("[bold red]No task is currently running.[/]");
+            }
+        }
+
+        public void GenerateReport(UserData userData)
+        {
+            Console.Clear();
+            while (true)
+            {
+                string reportType = SelectReportType();
+                if (reportType == "Exit")
+                {
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+                    break;
+                }
+
+                var tasksWithProjects = GetTasksForReportType(userData, reportType);
+                if (tasksWithProjects.Count == 0)
+                {
+                    AnsiConsole.MarkupLine("[red]No tasks found for this period![/]");
+                    Console.WriteLine("Press any key to continue...");
+                    return;
+                }
+
+                string choice = SelectFilterSortMenu();
+                if (choice == "Back")
+                {
+                    continue;
+                }
+
+                Console.Clear();
+
+                if (choice == "Filter")
+                {
+                    tasksWithProjects = FilterTasks(tasksWithProjects);
+                }
+                else if (choice == "Sort")
+                {
+                    tasksWithProjects = SortTasks(tasksWithProjects);
+                }
+
+                DisplayReport(tasksWithProjects, reportType);
+
+                if (PromptExit())
+                {
+                    Console.WriteLine("Press any key to continue...");
+                    break;
+                }
+                else
+                {
+                    Console.Clear();
+                }
+            }
+        }
+
+        private string SelectReportType()
+        {
+            return AnsiConsole.Prompt(
+                new SelectionPrompt<string>()
+                    .Title("[blue]Select report type:[/]")
+                    .AddChoices("Daily", "Weekly", "Monthly", "Exit"));
+        }
+
+        private List<(TaskItem Task, Project Project)> GetTasksForReportType(UserData userData, string reportType)
+        {
+            DateTime startDate = DateTime.Today;
+            DateTime endDate = startDate.AddDays(1);
+
+            if (reportType == "Weekly")
+            {
+                startDate = GetStartOfWeek();
+                endDate = startDate.AddDays(7);
+            }
+            else if (reportType == "Monthly")
+            {
+                startDate = GetStartOfMonth();
+                endDate = startDate.AddMonths(1);
+            }
+
+            var taskList = new List<(TaskItem, Project)>();
+            foreach (var project in userData.Projects)
+            {
+                if (project.TaskItems == null) continue;
+                foreach (var task in project.TaskItems)
+                {
+                    if (task.StartTime >= startDate && task.StartTime < endDate)
+                    {
+                        taskList.Add((task, project));
+                    }
+                }
+            }
+            return taskList;
+        }
+
+        private DateTime GetStartOfWeek()
+        {
+            int diff = (7 + (DateTime.Now.DayOfWeek - DayOfWeek.Monday)) % 7;
+            return DateTime.Now.AddDays(-diff).Date;
+        }
+
+        private DateTime GetStartOfMonth()
+        {
+            return new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
+        }
+
+        private string SelectFilterSortMenu()
+        {
+            return AnsiConsole.Prompt(
+                new SelectionPrompt<string>()
+                    .Title("[green]Filter, Sort, or Show All:[/]")
+                    .AddChoices("Filter", "Sort", "Show All", "Back"));
+        }
+
+        private List<(TaskItem Task, Project Project)> FilterTasks(List<(TaskItem Task, Project Project)> tasksWithProjects)
+        {
+            string filterChoice = AnsiConsole.Prompt(
+                new SelectionPrompt<string>()
+                    .Title("[yellow]Filter by:[/]")
+                    .AddChoices("Project Name", "Task Name", "Task Status", "Back"));
+
+            if (filterChoice == "Back") return tasksWithProjects;
+
+            var filteredTasks = new List<(TaskItem, Project)>();
+
+            if (filterChoice == "Project Name")
+            {
+                var projectNames = tasksWithProjects
+                    .Select(t => t.Project.Name)
+                    .Distinct()
+                    .ToList();
+                string selectedProject = AnsiConsole.Prompt(
+                    new SelectionPrompt<string>()
+                        .Title("[yellow]Select a project:[/]")
+                        .AddChoices(projectNames));
+                filteredTasks = tasksWithProjects
+                    .Where(t => t.Project.Name == selectedProject)
+                    .ToList();
+            }
+            else if (filterChoice == "Task Name")
+            {
+                var taskNames = tasksWithProjects
+                    .Select(t => t.Task.TaskName)
+                    .Distinct()
+                    .ToList();
+                string selectedTask = AnsiConsole.Prompt(
+                    new SelectionPrompt<string>()
+                        .Title("[yellow]Select a task:[/]")
+                        .AddChoices(taskNames));
+                filteredTasks = tasksWithProjects
+                    .Where(t => t.Task.TaskName == selectedTask)
+                    .ToList();
+            }
+            else if (filterChoice == "Task Status")
+            {
+                var statuses = Enum.GetNames(typeof(TaskState)).ToList();
+                string selectedStatus = AnsiConsole.Prompt(
+                    new SelectionPrompt<string>()
+                        .Title("[yellow]Select a task status:[/]")
+                        .AddChoices(statuses));
+                filteredTasks = tasksWithProjects
+                    .Where(t => t.Task.TaskStatus.ToString() == selectedStatus)
+                    .ToList();
+            }
+
+            return filteredTasks;
+        }
+
+        private List<(TaskItem Task, Project Project)> SortTasks(List<(TaskItem Task, Project Project)> tasksWithProjects)
+        {
+            string sortChoice = AnsiConsole.Prompt(
+                new SelectionPrompt<string>()
+                    .Title("[green]Sort tasks by:[/]")
+                    .AddChoices("Start Time", "End Time", "Duration", "Task Status", "Back"));
+
+            if (sortChoice == "Back") return tasksWithProjects;
+
+            var sortedTasks = new List<(TaskItem, Project)>(tasksWithProjects);
+
+            if (sortChoice == "Start Time")
+            {
+                sortedTasks.Sort((a, b) => a.Item1.StartTime.CompareTo(b.Item1.StartTime));
+            }
+            else if (sortChoice == "End Time")
+            {
+                sortedTasks.Sort((a, b) => a.Item1.EndTime.CompareTo(b.Item1.EndTime));
+            }
+            else if (sortChoice == "Duration")
+            {
+                sortedTasks.Sort((a, b) => a.Item1.Duration.CompareTo(b.Item1.Duration));
+            }
+            else if (sortChoice == "Task Status")
+            {
+                sortedTasks.Sort((a, b) => string.Compare(a.Item1.TaskStatus.ToString(), b.Item1.TaskStatus.ToString(), StringComparison.Ordinal));
+            }
+
+            return sortedTasks;
+        }
+
+        private void DisplayReport(List<(TaskItem Task, Project Project)> tasksWithProjects, string reportTitle)
+        {
+            Console.Clear();
+
+            var table = new ConsoleTable("Project Name", "Task Name", "Description", "Start Time", "End Time", "Duration", "Threshold Time", "Task Status");
+
+            foreach (var (task, project) in tasksWithProjects)
+            {
+                table.AddRow(
+                    project.Name ?? "N/A",
+                    task.TaskName ?? "N/A",
+                    task.TaskDescription ?? "N/A",
+                    task.StartTime.ToString("yyyy-MM-dd HH:mm:ss"),
+                    task.EndTime.ToString("yyyy-MM-dd HH:mm:ss"),
+                    task.Duration.ToString(),
+                    task.ThresholdTime.ToString(),
+                    task.TaskStatus.ToString());
+            }
+
+            AnsiConsole.MarkupLine($"[bold yellow]{reportTitle} Report[/]");
+            AnsiConsole.WriteLine(table.ToString());
+        }
+
+        private bool PromptExit()
+        {
+            string choice = AnsiConsole.Prompt(
+                new SelectionPrompt<string>()
+                    .Title("[blue]What would you like to do next?[/]")
+                    .AddChoices("Exit to Main Menu", "Perform Another Action"));
+
+            return choice == "Exit to Main Menu";
         }
 
         public void ManageProject(UserData userData)
@@ -500,7 +782,7 @@ namespace TimerTrackerApp.Presentation
             for (int attempts = 0; attempts < maxTries; attempts++)
             {
                 Console.Write("Enter threshold time (hh:mm:ss) or Enter Zero to not set threshold: ");
-                string userInput = Console.ReadLine();
+                string? userInput = Console.ReadLine();
 
                 if (TimeSpan.TryParse(userInput, out thresholdTime))
                 {
