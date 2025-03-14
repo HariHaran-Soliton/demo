@@ -10,7 +10,6 @@
         public DateTime ResumeTime { get; set; }
         public TimeSpan Duration { get; set; }
         public TimeSpan ThresholdTime { get; set; }
-        public DateTime LastSavedTime { get; set; }  // New field for tracking ongoing duration
     }
 
     public enum TaskState
